@@ -1,7 +1,7 @@
 import uvicorn
 from fastapi import FastAPI
 
-
+import transformers
 
 import json
 import numpy as np
