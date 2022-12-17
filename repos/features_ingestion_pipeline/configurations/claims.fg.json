@@ -1,0 +1,147 @@
+{
+  "FeatureGroupName": "claims",
+  "FeatureDefinitions": [
+    {
+      "FeatureName": "policy_id",
+      "FeatureType": "Integral"
+    },
+    {
+      "FeatureName": "incident_severity",
+      "FeatureType": "Integral"
+    },
+    {
+      "FeatureName": "num_vehicles_involved",
+      "FeatureType": "Integral"
+    },
+    {
+      "FeatureName": "num_injuries",
+      "FeatureType": "Integral"
+    },
+    {
+      "FeatureName": "num_witnesses",
+      "FeatureType": "Integral"
+    },
+    {
+      "FeatureName": "police_report_available",
+      "FeatureType": "Integral"
+    },
+    {
+      "FeatureName": "injury_claim",
+      "FeatureType": "Fractional"
+    },
+    {
+      "FeatureName": "vehicle_claim",
+      "FeatureType": "Fractional"
+    },
+    {
+      "FeatureName": "total_claim_amount",
+      "FeatureType": "Fractional"
+    },
+    {
+      "FeatureName": "incident_month",
+      "FeatureType": "Integral"
+    },
+    {
+      "FeatureName": "incident_day",
+      "FeatureType": "Integral"
+    },
+    {
+      "FeatureName": "incident_dow",
+      "FeatureType": "Integral"
+    },
+    {
+      "FeatureName": "incident_hour",
+      "FeatureType": "Integral"
+    },
+    {
+      "FeatureName": "fraud",
+      "FeatureType": "Integral"
+    },
+    {
+      "FeatureName": "driver_relationship_self",
+      "FeatureType": "Integral"
+    },
+    {
+      "FeatureName": "driver_relationship_na",
+      "FeatureType": "Integral"
+    },
+    {
+      "FeatureName": "driver_relationship_spouse",
+      "FeatureType": "Integral"
+    },
+    {
+      "FeatureName": "driver_relationship_child",
+      "FeatureType": "Integral"
+    },
+    {
+      "FeatureName": "driver_relationship_other",
+      "FeatureType": "Integral"
+    },
+    {
+      "FeatureName": "incident_type_collision",
+      "FeatureType": "Integral"
+    },
+    {
+      "FeatureName": "incident_type_breakin",
+      "FeatureType": "Integral"
+    },
+    {
+      "FeatureName": "incident_type_theft",
+      "FeatureType": "Integral"
+    },
+    {
+      "FeatureName": "collision_type_front",
+      "FeatureType": "Integral"
+    },
+    {
+      "FeatureName": "collision_type_rear",
+      "FeatureType": "Integral"
+    },
+    {
+      "FeatureName": "collision_type_side",
+      "FeatureType": "Integral"
+    },
+    {
+      "FeatureName": "collision_type_na",
+      "FeatureType": "Integral"
+    },
+    {
+      "FeatureName": "authorities_contacted_police",
+      "FeatureType": "Integral"
+    },
+    {
+      "FeatureName": "authorities_contacted_none",
+      "FeatureType": "Integral"
+    },
+    {
+      "FeatureName": "authorities_contacted_ambulance",
+      "FeatureType": "Integral"
+    },
+    {
+      "FeatureName": "authorities_contacted_fire",
+      "FeatureType": "Integral"
+    },
+    {
+      "FeatureName": "event_time",
+      "FeatureType": "Fractional"
+    }
+  ],
+  "RecordIdentifierFeatureName": "policy_id",
+  "EventTimeFeatureName": "event_time",
+  "OnlineStoreConfig": {
+    "EnableOnlineStore": true
+  },
+  "OfflineStoreConfig": {
+    "S3StorageConfig": {
+      "S3Uri": "s3://bucket/key"
+    },
+    "DisableGlueTableCreation": false
+  },
+  "Description": "Claim feature group",
+  "Tags": [
+    {
+      "Key": "stage",
+      "Value": "DEV"
+    }
+  ]
+}
