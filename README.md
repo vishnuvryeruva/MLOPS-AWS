@@ -29,12 +29,12 @@ ML Ops (https://neptune.ai/blog/best-mlops-tools)
 	Sagemaker
 
 4. Run orchestration and workflow pipelines:
-	Kubeflow
+	Kubeflow,
 	Zeet
 
 5. Model deployment and serving:
 	Zeet
 
 6. Production model monitoring:
-	Zeet
+	Zeet,
 	Cloudwatch
