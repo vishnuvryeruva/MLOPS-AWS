@@ -1,8 +1,0 @@
-{
-    "app": "python3 app.py",
-    "context": {
-    },
-    "versionReporting": false,
-    "requireApproval": "never"
-  }
-  
