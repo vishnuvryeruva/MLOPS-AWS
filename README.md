@@ -13,32 +13,23 @@ https://databricks.com/blog/2020/11/05/a-guide-to-mlflow-talks-at-data-ai-summit
 ML Ops (https://neptune.ai/blog/best-mlops-tools)
 
 1. Model metadata storage and management
-	Neptune
-	MLFlow
-	Comet
+	S3 Bucket
 	
 2. Data and pipeline versioning
-	DVC
-	Pachyderm
+	Zeet
 
 3. Hyperparameter tuning
-	Optuna
-	SigOpt
+	OSagemaker
 
 4. Run orchestration and workflow pipelines
 	Kubeflow
-	Polyaxon
-	Airflow
-	Kedro
+	Zeet
 
 5. Model deployment and serving
-	BentoML
-	Cortex
-	Seldon
+	Zeet
 
 6. Production model monitoring
-	Fiddler
-	Hydrosphere
-	Evidently
+	Zeet
+	Cloudwatch
 	
 	
